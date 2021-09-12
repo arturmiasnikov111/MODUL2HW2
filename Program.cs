@@ -6,7 +6,7 @@ namespace module_2_homeTask2
     {
         public static void Main(string[] args)
         {
-            var user = new User("Vova", "qwe@mail.com");
+            var user = new User("Vova", phone: "+3980213");
             var productProvider = new ProductsProvider();
             var products = productProvider.getProducts();
             var basket = Basket.Instance;
